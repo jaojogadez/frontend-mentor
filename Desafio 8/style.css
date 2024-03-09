@@ -1,0 +1,138 @@
+/* General Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: none;
+}
+
+/* Font's Style */
+h1{
+    font: normal 600 2em 'Poppins';
+    color: #fff;
+}
+p{
+    font: normal 400 1em 'Open Sans';
+    color: #fff;
+}
+a{
+    font: normal 400 1em 'Open Sans';
+    color: hsl(257, 40%, 49%);
+    text-decoration: none;
+}
+nav img{
+    padding: 30px 0 70px 70px;
+    max-width: 250px ;
+}
+main{
+    display: flex;
+}
+
+.left__box{
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left__box img{
+    width: 650px;
+}
+.title__box{
+    margin-top: 50px;
+}
+
+.paragraphy__box{
+    margin: 25px 0;
+    max-width: 455px;
+}
+
+.btn a{
+    background-color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.247);
+    font-size: .9em;
+    
+}
+.btn a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    transition-duration: 1s;
+}
+.btn{
+    margin-top: 35px;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+    padding: 0px 70px 35px 0px;
+}
+
+footer img{
+    cursor: pointer;
+}
+footer img:hover{
+    filter: brightness(0) invert(1) sepia(50) saturate(255) hue-rotate(275deg) brightness(0.7) contrast(2.9);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    body{
+        background-size: contain;
+        background-image: url(images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left__box{
+        max-width: 430px;
+        margin: auto;
+    }
+    .left__box img{
+        width: 380px;
+        
+    }
+    nav img{
+        padding: 40px 0 60px 40px;
+        max-width: 190px;
+    }
+
+    main section{
+        text-align: center;
+    }
+
+    .title__box h1{
+        margin: 80px 0 0 0;
+    }
+    
+    .paragraphy__box p{
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .btn a{
+        padding: 12px 80px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+        margin-left: 69px;
+    }
+}

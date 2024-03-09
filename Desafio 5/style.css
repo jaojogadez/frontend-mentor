@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color:hsl(0, 0%, 95%);
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    border-radius: 10%;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+.sedans, .suvs, .luxury{
+    padding: 50px;
+}
+.icon{
+    margin-bottom: 25px;
+}
+
+.sedans-btn{
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    width: 130px;
+    border-radius: 20px;
+    color: hsl(31, 77%, 52%) ;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+.sedans-btn:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%) ;
+    transition: 1s;
+}
+.suvs-btn{
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    width: 130px;
+    border-radius: 20px;
+    color:hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+.suvs-btn:hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%) ;
+    transition: 1s;
+}
+.luxury-btn{
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    width: 130px;
+    border-radius: 20px;
+    color:hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+.luxury-btn:hover{
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%) ;
+    transition: 1s;
+}
+.btn{
+    margin-top: 100px;
+}

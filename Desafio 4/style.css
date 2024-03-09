@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+
+    border-radius: 20px;
+}
+.ilustration{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Adicione uma sombra à caixa */
+    background-color: white;
+    border-radius: 20px;
+}
+.head{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.head h1{
+    font-weight: 900;
+    color: rgb(39, 39, 39);
+    margin-bottom: 20px;
+}
+.head p{
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+.plan{
+    padding-right: 30px;
+}
+
+.box h2{
+    font-weight: 900;
+    font-size: medium;
+}
+.link{
+    font-weight: 900;
+    font-size: small;
+}
+
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+button{
+    padding: 15px;
+    width: 300px;
+    margin:30px;
+    border-radius: 13px;
+    border: 0;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+}
+.btn h3{
+    font-weight: 700;
+}
+.btn h4{
+    color: grey;
+    margin-bottom: 40px;
+}

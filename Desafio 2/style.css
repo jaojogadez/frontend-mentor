@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color:  hsl(30, 38%, 92%);
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.img{
+    display: flex;
+    width: 300px;
+    height: 450px;
+    border-radius: 2%;
+    
+}
+.content{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 450px;
+    border-radius: 2%;
+    flex-direction: column;
+    border: none;
+
+}
+
+.title h1{
+    font-family: 'Fraunces';
+    color: hsl(0, 0%, 14%);
+    padding-left: 12%;
+    margin-top: 25px;
+}
+
+.perfume p{
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-size: small;
+    color: hsl(0, 0%, 53%);
+    letter-spacing: 5px;
+    padding-left: 12%;
+    margin-top:30px ;
+}
+
+.text p{
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    color: hsl(0, 0%, 53%);
+    padding-left: 12%;
+    margin-top:25px ;
+    line-height: 1.7em;
+    font-size: small;
+}
+
+.preco{
+    padding-left: 12%;
+    margin-top: 25px;
+    display: flex;
+}
+.p2{
+    font-family: 'Montserrat';
+    color: hsl(0, 0%, 53%);
+    text-decoration: line-through;
+    font-size: small;
+    margin-top: 3.6%;
+    padding-left: 17px;
+}
+.p1{
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+}
+
+.botao{
+    display: block;
+    margin: auto;
+    width: 220px;
+    font-size: small;
+    font-family: 'Montserrat';
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    padding: 13px 22px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: hsl(158, 36%, 37%) ;
+    transition: all 0.2s ease;
+    margin-top: 7%;
+}

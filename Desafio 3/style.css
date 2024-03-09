@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    border: none;
+    background-color: white ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Adicione uma sombra à caixa */
+    border-radius: 20px;
+}
+.box1{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    padding: 50px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.summary{
+    font-size: 18px;
+    font-weight: bold;
+    color:hsl(0, 2%, 22%); 
+    margin-bottom: 10px;
+
+}
+
+.icon1 > p,
+.icon2 > p,
+.icon3 > p,
+.icon4 > p {
+    padding-right: 80px;
+    padding-left: 8px;
+}
+.icon1{
+    background-color: hsla(0, 100%, 67%, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+.icon2{
+    background-color: hsl(39, 100%, 56%, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+.icon3{
+    background-color: hsl(166, 100%, 37%, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+.icon4{
+    background-color: hsl(234, 85%, 45%, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+.text{
+    font-weight: 300;
+    font-size: small;;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+.result{
+    font-size: larger;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+h1{
+    font-size: x-large;
+}
+
+
+span{
+    font-size: 3.5em;
+    font-weight: 800;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle > p{
+    font-size:small;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+button{
+    padding:15px;   
+    border: 0;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}

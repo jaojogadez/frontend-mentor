@@ -1,0 +1,58 @@
+/* General Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts Rules */
+
+@font-face {
+    font-family: 'outfit-regular';
+    src: url(assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'young-serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+
+/* h1 style */
+
+main h1{
+    font-family: 'young-serif';
+    font-weight: normal;
+    font-size: 2em;
+}
+
+/* h2 style */
+
+main h2{
+    font-family: 'young-serif';
+    font-weight: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+/* h3 style */
+
+main h3{
+    font-family:'outfit-regular' ;
+    font-weight: bold;
+    color: hsl(332, 51%, 32%);
+}
+
+/* p and li style */
+
+main p, li{
+    font-family: 'outfit-regular';
+}
+
+strong{
+    color:  hsl(24, 5%, 18%);
+}
+
+hr{
+    color:  hsl(30, 18%, 87%);
+}
