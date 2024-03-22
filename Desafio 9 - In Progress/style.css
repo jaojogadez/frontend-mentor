@@ -22,9 +22,9 @@
 /* h1 style */
 
 main h1{
-    font-family: 'young-serif';
-    font-weight: normal;
-    font-size: 2em;
+    font: normal normal 2.3em 'young-serif';
+    margin-bottom: 20px;
+    color: hsl(24, 5%, 18%);
 }
 
 /* h2 style */
@@ -43,10 +43,11 @@ main h3{
     color: hsl(332, 51%, 32%);
 }
 
-/* p and li style */
+/* p and ul,li style */
 
 main p, li{
     font-family: 'outfit-regular';
+    color: hsl(30, 10%, 34%)
 }
 
 strong{
@@ -55,4 +56,61 @@ strong{
 
 hr{
     color:  hsl(30, 18%, 87%);
+}
+
+/* img style */
+main header{
+    display: flex;
+    justify-content: center;
+}
+main header img{
+    min-width: 320px;
+    max-width: 650px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+/* body style */
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* main style */
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    min-width: 450px;
+    max-width: 650px;
+    margin:100px auto 100px;
+    padding: 45px;
+    border-radius: 25px;
+    
+}
+
+/* section style */
+
+#preparation_time{
+    margin: 25px 0;
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+#preparation_time h3{
+    margin-bottom: 15px;
+}
+#preparation_time ul{
+    padding-left: 18px;
+}
+#preparation_time ul li{
+    text-indent: 16px;
+    margin: 7px 0;
+    color: hsl(332, 51%, 32%);
+    
+}
+#preparation_time ul li span{
+    color: hsl(24, 5%, 18%);
 }
