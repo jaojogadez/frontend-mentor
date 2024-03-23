@@ -45,9 +45,8 @@ main h3{
 
 /* p and ul,li style */
 
-main p, li{
+main p, li, th, td{
     font-family: 'outfit-regular';
-    color: hsl(30, 10%, 34%)
 }
 
 strong{
@@ -77,6 +76,7 @@ body{
     display: flex;
     align-items: center;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /* main style */
@@ -111,6 +111,79 @@ main {
     color: hsl(332, 51%, 32%);
     
 }
-#preparation_time ul li span{
-    color: hsl(24, 5%, 18%);
+span{
+    color: hsl(30, 10%, 34%);
+    font-weight: normal;
+}
+
+/* Ingredients and Instructions style */
+
+.list h2{
+    margin-bottom: 15px;
+}
+
+.list ul, ol{
+    margin-left: 20px;
+}
+
+.list ul li, ol li{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+    text-indent: 16px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.list{
+    margin-bottom: 32px;
+}
+.line{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin-bottom: 32px;
+}
+
+/* table style */
+
+aside p{
+    color: hsl(30, 10%, 34%);
+    margin: 15px 0;
+}
+table{
+    display: flex;
+    min-height: 5vh;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+thead tr{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2rem;
+    line-height: 40px;
+}
+thead tr th{
+    font-weight: normal;
+    color: hsl(30, 10%, 34%);
+}
+tbody tr{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12rem;
+    line-height: 40px;
+}
+tbody tr td{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+th, td{
+    border-bottom: 1px solid grey;
+}
+
+/* versão mobile style */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    main{
+        margin: auto;
+        border-radius: 0px;
+    }
 }
