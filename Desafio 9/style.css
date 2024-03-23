@@ -111,7 +111,7 @@ main {
     color: hsl(332, 51%, 32%);
     
 }
-span{
+span, p{
     color: hsl(30, 10%, 34%);
     font-weight: normal;
 }
