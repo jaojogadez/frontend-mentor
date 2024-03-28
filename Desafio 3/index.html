@@ -1,60 +1,66 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-      <title>Frontend Mentor | Results summary component</title>
-      <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-      <div class="container">
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
 
-        <div class="box1">
-          <p class="result">Your Result</p> 
-          <div class="circle">
-            <span>76</span>
-            <p>of 100</p>
-          </div>
-          <h1>Great</h1><br>
-          <p class="text">You scored higher than 65% of <br> the people who have taken<br>these tests.</p>
-        </div>
-
-
-        <div class="box2">
-          <p class="summary"><p>Summary</p>
-          <div class="icon1">
-            <div class="s1">
-              <img src="/assets/images/icon-reaction.svg">
-              <h2>Reaction</h2>
-            </div>
-            <div class="s2">
-              <p>80 / <a style="color: gray;">100</a></p>
-            </div>
-          </div>
-
-
-
-
-
-
-          <div class="icon2">
-            <img src="assets/images/icon-memory.svg">
-            <p style="color: hsl(39, 100%, 56%);">Memory</p>
-            92 / <a style="color: gray;">100</a>
-          </div>
-          <div class="icon3">
-            <img src="/assets/images/icon-verbal.svg">
-            <p style="color: hsl(166, 100%, 37%);">Verbal</p>
-            61 / <a style="color: gray;">100</a>
-          </div>
-          <div class="icon4">
-            <img src="/assets/images/icon-visual.svg">
-            <p style="color: hsl(234, 85%, 45%);">Visual</p>
-            72 / <a style="color: gray;">100</a>
-          </div>
-          <button>Continue</button>
+  <main>
+    <section class="left__card">
+      <div class="title__box"><h1>Your Result</h1></div>
+      <div class="circle__box">
+        <div id="circle">
+          <h2>76</h2>
+          <p>of 100</p>
         </div>
       </div>
-    </body>
-  </html>
+      <div class="subtitle__box">
+        <h3>Great</h3>
+        <p>You scored higher than 65% of <br> the people who have taken <br> these tests.</p>
+      </div>
+    </section>
+    
+    <section class="rigth__card">
+      <div class="rigth__title__box"><h1>Summary</h1></div>
+      <ul>
+        <li id="one">
+          <div  class="itemns__box">
+            <img src="assets/images/icon-reaction.svg" alt="icon-reaction">
+            <p class="color">Reaction</p>
+          </div>
+          <p>80 / <span>100</span></p>
+        </li>
+        <li id="two">
+          <div  class="itemns__box">
+            <img src="assets/images/icon-memory.svg" alt="icon-memory">
+            <p class="color">Memory</p>
+          </div>
+          <p>92 / <span>100</span></p>
+        </li>
+        <li  id="three">
+          <div class="itemns__box">
+            <img src="assets/images/icon-verbal.svg" alt="icon-verbal">
+            <p class="color">Verbal</p>
+          </div>
+          <p>61 / <span>100</span></p>
+        </li>
+        <li id="four">
+          <div  class="itemns__box">
+            <img src="assets/images/icon-visual.svg" alt="icon-visual">
+            <p class="color">Visual</p>
+          </div>
+          <p>72 / <span>100</span></p>
+        </li>
+      </ul>
+      <a href="#">Continue</a>
+    </section>
+  </main>
+  
+</body>
+</html>
