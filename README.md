@@ -10,4 +10,4 @@
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%207/" target="_blank">Desafio 7</a>
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%208/" target="_blank">Desafio 8</a>
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%209/" target="_blank">Desafio 9</a>
- <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%210/" target="_blank">Desafio 10</a>
+ <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%2010/index.html" target="_blank">Desafio 10</a>
