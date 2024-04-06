@@ -1,6 +1,6 @@
 # frontend-mentor
- Desafios que eu resolvi do Frontend Mentor!
-
+ Desafios que eu resolvi do Frontend Mentor!<br>
+<a href="https://www.frontendmentor.io/">Frontend Mentor </a> é uma plataforma/site que oferece desafios para quem quer praticar seus conhecimentos em Desenvolvimento Web! <br>
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%201/" target="_blank">Desafio 1</a>
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%202/" target="_blank">Desafio 2</a>
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%203/" target="_blank">Desafio 3</a>
