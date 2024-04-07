@@ -13,20 +13,20 @@ body{
     justify-content: center ;
     align-items: center;
     height: 100vh;
-    overflow-y: hidden;
+
 }
 .img{
     display: flex;
     width: 300px;
     height: 450px;
-    border-radius: 2%;
+    border-radius: 10px 0 0 10px;
     
 }
 .content{
     background-color: hsl(0, 0%, 100%);
     width: 300px;
     height: 450px;
-    border-radius: 2%;
+    border-radius: 0px 10px 10px 0px;
     flex-direction: column;
     border: none;
 
@@ -94,4 +94,22 @@ body{
     background-color: hsl(158, 36%, 37%) ;
     transition: all 0.2s ease;
     margin-top: 7%;
+}
+.botao:hover{
+    background-color:hsl(212, 21%, 14%);
+}
+main{
+    display: flex;
+}
+@media only screen and (min-width: 320px) and (max-width: 627px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        width: 450px;
+    }
+
+    .img{
+        border-radius: 10px 10px 0 0;
+    width: 100%;    }
 }
