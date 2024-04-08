@@ -143,41 +143,24 @@ span, p{
 }
 
 /* table style */
-
-aside p{
-    color: hsl(30, 10%, 34%);
-    margin: 15px 0;
-}
 table{
-    display: flex;
-    min-height: 5vh;
-    justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 20px;
+    width: 500px;
 }
-thead tr{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 2rem;
-    line-height: 40px;
+table tr{
+    border: 1px solid black;
 }
-thead tr th{
-    font-weight: normal;
+
+.td_left{
     color: hsl(30, 10%, 34%);
 }
-tbody tr{
-    display: flex;
-    flex-direction: column;
-    margin-right: 12rem;
-    line-height: 40px;
-}
-tbody tr td{
-    font-weight: bold;
+
+.td_rigth{
+    font-weight: bolder;
     color: hsl(14, 45%, 36%);
 }
-th, td{
-    border-bottom: 1px solid grey;
-}
+
+
 
 /* versão mobile style */
 
