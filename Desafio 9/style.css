@@ -143,12 +143,21 @@ span, p{
 }
 
 /* table style */
+aside p{
+    margin-top: 16px;
+}
 table{
     margin-top: 20px;
     width: 500px;
+    height: 200px;
+    border-collapse: collapse;
 }
-table tr{
-    border: 1px solid black;
+td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+
+}
+#essenao{
+    border-bottom: none;
 }
 
 .td_left{
