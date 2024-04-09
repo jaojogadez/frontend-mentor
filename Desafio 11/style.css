@@ -1,0 +1,117 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+/* General Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variaveis */
+
+:root{
+    --fonte: "Kumbh Sans", sans-serif;
+    --ciano:hsl(185, 75%, 39%);
+    --azulescuro:hsl(229, 23%, 23%);
+    --cinza:hsl(0, 0%, 59%);
+    --cinzaescuro: hsl(227, 10%, 46%);
+}
+
+/* body style */
+
+body{
+    font-family:var(--fonte);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--ciano);
+    overflow: hidden;
+}
+#img-top{
+    margin-top: 10rem;
+    margin-right: 59rem;
+}
+#img-bottom{
+    margin-bottom: 10rem;
+    margin-left: 56em;
+}
+/* main style */
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+    position: absolute;
+}
+
+main header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--cinza);
+}
+
+.title{
+    margin-top: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title span{
+    margin: 5px 0 ;
+    font-size: .9em;
+    color: var(--cinza);
+}
+.inline{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.inline h1{
+    font-size: 1.1em;
+    color: var(--azulescuro);
+}
+.inline p{
+    color: var(--cinza);
+}
+
+
+/* imgs style */
+
+.image-bg{
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    
+}
+.image-pf{
+    position: absolute;
+    margin-top: 5rem;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+main section{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    margin-right: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content h2{
+    font-size: 1.1em;
+    color: var(--azulescuro);
+}
+.content p{
+    font-size: .8em;
+    color: var(--cinza);
+    
+}
