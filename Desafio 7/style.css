@@ -1,0 +1,116 @@
+    /* estilos gerais */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(233, 47%, 7%);
+    }
+    /* text style */
+    .content h1, h2{
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+    }
+    .content p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        max-width:  325px;
+    }
+    .num p{
+        color: hsla(0, 0%, 100%, 0.6);
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+    }
+    span{
+        color:hsl(277, 64%, 61%);
+    }
+    /* box style */
+
+    .box{
+        display: flex;
+        align-items: center;
+    }
+    .container{
+        background-color: hsl(244, 38%, 16%);
+        padding: 20px ;
+        border-radius: 10px 0px 0px 10px;
+        max-width: 450px;
+    }
+    .num{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+        width: 325px;
+    }
+    .num2{
+        text-align: center;
+    }
+    .num2 p{
+        font-size: smaller;
+    }
+    .content{
+        margin:20px;
+    }
+    .content h1{
+        margin: 20px 0; 
+    }
+    .content p{
+        margin-bottom: 25px;
+        font-size: smaller;
+    }
+    .img{
+        width: 358px;
+        border-radius: 0px 10px 10px 0px;
+        filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%));
+    }
+    .container-img{
+        display: flex;
+    }
+    .img-mobile{
+        display: none;
+        max-width: 358px;
+        filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%));
+    }
+    @media screen and (min-width: 240px) and (max-width: 900px) {
+        .box{
+            display: flex;
+            flex-direction: column-reverse;
+            margin: 50px 0;
+        }
+        .img{
+            display: none;
+        }
+        .img-mobile{
+            display: block;
+            border-radius: 10px 10px 0 0;
+        }
+        .container{
+            max-width: 358px;
+            border-radius: 0 0 10px 10px;
+        }
+        .content, .num{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .content h1{
+            font-size: 1.68em;
+        }
+        .content p{
+            line-height: 25px;
+        }
+        .num{
+            display: contents;
+        }
+        .num2{
+            margin-bottom: 25px;
+        }
+    }

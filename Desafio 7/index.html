@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,90 +8,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
-  <style>
-    /* estilos gerais */
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body{
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: hsl(233, 47%, 7%);
-    }
-    /* text style */
-    .content h1, h2{
-      color: white;
-      font-family: 'Inter', sans-serif;
-      font-weight: 700;
-    }
-    .content p{
-      color: hsla(0, 0%, 100%, 0.75);
-      font-family: 'Lexend Deca', sans-serif;
-      font-weight: 400;
-    }
-    .num p{
-      color: hsla(0, 0%, 100%, 0.6);
-      font-family: 'Lexend Deca', sans-serif;
-      font-weight: 400;
-    }
-    span{
-      color:hsl(277, 64%, 61%);
-    }
-    /* box style */
-
-    .box{
-      display: flex;
-      align-items: center;
-    }
-    .container{
-      background-color: hsl(244, 38%, 16%);
-      padding: 20px ;
-      border-radius: 10px 0px 0px 10px;
-    }
-    .num{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 20px;
-    }
-    .num2{
-      text-align: center;
-    }
-    .num2 p{
-      font-size: smaller;
-    }
-    .content{
-      margin:20px;
-    }
-    .content h1{
-      margin: 20px 0; 
-    }
-    .content p{
-      margin-bottom: 25px;
-      font-size: smaller;
-    }
-    .img{
-      width: 358px;
-      border-radius: 0px 10px 10px 0px;
-      filter: opacity(0.4) drop-shadow(0 0 0 hsl(277, 64%, 61%));
-    }
-    .container-img{
-      display: flex;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="box">
     <div class="container">
       <div class="content">
-        <h1>Get <span>insights</span> that help <br> your business grow.</h1>
+        <h1>Get <span>insights</span> that help your business grow.</h1>
         <p>
-          Discover the benefits of data analytics and make <br> better decisions regarding revenue, customer <br>
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer 
           experience, and overall efficiency.
         </p>
       </div>
@@ -112,6 +38,7 @@
     </div>
     <div class="container-img">
       <img src="images/image-header-desktop.jpg" alt="img" class="img">
+      <img src="images/image-header-mobile.jpg" alt="img-mobile-version" class="img-mobile">
     </div>
   </div>
 

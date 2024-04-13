@@ -1,0 +1,94 @@
+    /* Estilos gerais */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: hsl(217, 54%, 11%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Outfit', sans-serif;
+        overflow: hidden;
+    }
+
+    /* Estilo dos textos */
+    h1{color: white;}
+    p{color: hsl(215, 14%, 44%);}
+    span{color: white;}
+
+    /* img style */
+    .img img{
+        width: 250px ;
+        border-radius: 10px;
+    }
+
+    /* estilos das caixas */
+    .container{
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 20px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 15px 0px 20px 15px hsl(214, 39%, 12%)
+    }
+    .content h1{
+        font-size: 1.5rem;
+        margin: 5px;
+        text-align: left;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .content p{
+        font-size: 16px;
+        margin: 5px;
+        text-align: left;
+    }
+    .footer{
+        display: flex;
+        width: 100%;
+        gap: 50px;
+        margin-top:10px ;
+        margin-bottom: 10px;
+    }
+    .div1{
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        padding: 10px;
+        gap: 5px;
+    }
+    .div1 p{
+        color: hsl(178, 100%, 50%);
+        font-weight: 600;
+    }
+    .div2{
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        gap: 5px;
+        font-size:16px;
+        font-weight: 400;
+    }
+    .end{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 15px;
+    }
+    .end img{
+        width: 30px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    hr{
+        width: 100%;
+        height: 1px;
+        border: 0px;
+        border-top: 1px solid hsl(215, 14%, 44%);
+        background-color: #dddddd;
+    }
