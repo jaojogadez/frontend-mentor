@@ -11,6 +11,9 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
 }
 main{
     display: flex;
@@ -100,4 +103,11 @@ button{
 .btn h4{
     color: grey;
     margin-bottom: 40px;
+}
+
+@media screen and (min-width:240px) and (max-width:850px){
+    body{
+        background-image: url('images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+    }
 }
