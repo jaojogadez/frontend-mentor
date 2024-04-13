@@ -23,7 +23,7 @@ p{
 }
 body{
     background-color: hsl(0, 0%, 95%);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,12 +59,12 @@ main{
     color: hsl(31, 77%, 52%) ;
     font-family: 'Lexend Deca', sans-serif;
     cursor: pointer;
+    transition: 1s ease;
 }
 .sedans-btn:hover{
     background-color: hsl(31, 77%, 52%);
     border: 2px solid hsl(0, 0%, 95%);
     color:hsl(0, 0%, 95%) ;
-    transition: 1s;
 }
 .suvs-btn{
     padding: 10px;
@@ -75,12 +75,12 @@ main{
     color:hsl(184, 100%, 22%);
     font-family: 'Lexend Deca', sans-serif;
     cursor: pointer;
+    transition: 1s ease;
 }
 .suvs-btn:hover{
     background-color: hsl(184, 100%, 22%);
     border: 2px solid hsl(0, 0%, 95%);
     color:hsl(0, 0%, 95%) ;
-    transition: 1s;
 }
 .luxury-btn{
     padding: 10px;
@@ -91,13 +91,31 @@ main{
     color:hsl(179, 100%, 13%);
     font-family: 'Lexend Deca', sans-serif;
     cursor: pointer;
+    transition: 1s ease;
 }
 .luxury-btn:hover{
     background-color: hsl(179, 100%, 13%);
     border: 2px solid hsl(0, 0%, 95%);
     color:hsl(0, 0%, 95%) ;
-    transition: 1s;
 }
 .btn{
     margin-top: 100px;
+}
+
+@media screen and (min-width:240px)and (max-width:900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 0;
+    }
+    .sedans{
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+
 }
