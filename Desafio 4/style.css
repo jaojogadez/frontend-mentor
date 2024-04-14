@@ -10,7 +10,6 @@ body{
     display:flex ;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     background-image: url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
@@ -20,10 +19,6 @@ main{
     justify-content: center;
     align-items: center;
 }
-section{
-
-    border-radius: 20px;
-}
 .ilustration{
     width: 100%;
     border-radius: 20px 20px 0 0;
@@ -32,14 +27,14 @@ section{
 
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
+
+    
+
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Adicione uma sombra à caixa */
     background-color: white;
     border-radius: 20px;
+    height: 450px;
+    width: 400px;
 }
 .head{
     display: flex;
