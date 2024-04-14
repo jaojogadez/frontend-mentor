@@ -125,16 +125,38 @@ span{
 }
 
 
-a{
+#btn{
     text-decoration: none;
-    padding: 10px 70px;
+    padding: 12px ;
+    min-width: 250px;
     background-color: hsl(224, 30%, 27%);
     color: #fff;
     border-radius: 20px;
     font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 1s ease;
 }
-
+#btn:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
 .rigth__title__box h1{
     margin:7px 0 26px 0;
 }
 
+@media screen and (min-width: 240px) and (max-width:650px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+    }
+    .left__card{
+        border-radius: 0 0 40px 40px;
+    }
+    #btn{
+        min-width: 410px;
+        max-width: 550px;
+    }
+}
