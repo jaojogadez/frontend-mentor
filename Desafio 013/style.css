@@ -1,8 +1,71 @@
 @charset "UTF-8";
 
-/* General Style */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --font: "Overpass", sans-serif;
+}
+
+html, body{
+    font-size: 15px;
+    font-family: var(--font);
+    background-color: var(--VeryDarkBlue);
+    min-height: 100vh;
+}
+
+h1{
+    color: var(--White);
+}
+
+p{
+    color: var(--LightGrey);
+}
+
+.btn-primary{
+    background-color: var(--Orange);
+    color: var(--VeryDarkBlue);
+    width: 160px;
+}
+
+.btn-primary:hover{
+    background-color: var(--White);
+    color: black;
+}
+.container{
+    background-color: var(--DarkBlue);
+    max-width: 450px;
+}
+
+li{
+    background-color: hsl(213, 20%, 27%);
+    color: var(--LightGrey);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: .9em;
+    font-weight: bolder;
+    transition: .1s;
+    cursor: pointer;
+}
+li:hover{
+    background-color: var(--Orange);
+    color: var(--VeryDarkBlue);
+    transform: scale(1.1);
+}
+.whiteTransform{
+    background-color: var(--White);
+}
+
+.rounded-circle{
+    width: 40px;
+    height: 40px;
+    background-color: hsl(213, 20%, 27%);
 }
