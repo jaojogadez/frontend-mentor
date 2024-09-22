@@ -12,7 +12,7 @@
 
   <!-- Rating state start -->
 
-  <div class=" container p-4 rounded-4 " style="max-width: 450px;">
+  <div class="d-none container p-4 rounded-4 " style="max-width: 450px;">
     <div class="mt-2 mb-4 rounded-circle d-flex align-items-center justify-content-center">
       <img src="images/icon-star.svg" alt="icon-star"  height="18px">
     </div>
@@ -29,7 +29,7 @@
         <li>4</li>
         <li>5</li>
       </ul>
-      <button type="button" class="btn btn-primary px-5 mt-1 border-0 rounded-pill text-uppercase fw-bold font-monospace w-100" style="letter-spacing: 1.5px; font-size: .9em;" >Submit</button>
+      <input type="submit" class="btn btn-primary px-5 mt-1 border-0 rounded-pill text-uppercase fw-bold font-monospace w-100" style="letter-spacing: 1.5px; font-size: .9em;" value="submit">
     </form>
   </div>
 
@@ -37,8 +37,11 @@
 
   <!-- Thank you state start -->
 
-  <div class="m-auto d-none">
-    You selected <!-- Add rating here --> out of 5
+  <div class="container  p-4 rounded-4 d-flex flex-column align-items-center text-center" style="max-width: 450px;">
+    <img src="images/illustration-thank-you.svg" alt="Thank you img">
+    <div class="rounded-4 my-3 d-flex align-items-center">
+      <p>You selected <!-- Add rating here --> out of 5</p>
+    </div>
     Thank you!
     We appreciate you taking the time to give a rating. If you ever need more support,
     don’t hesitate to get in touch!
