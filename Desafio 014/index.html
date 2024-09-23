@@ -1,59 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | Contact form</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="p-3">
-
-  <main class="rounded-3 p-4">
-    <h1>Contact Us</h1>
-    <form method="post" class="mt-4">
-      <div class="row">
-        <div class="col input-group mb-3 flex-column">
-          <label for="name" class="form-label">First Name *</label>
-          <input type="text" class="form-control rounded-2 w-100" id="name">
-          <span>This field is required</span>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container-flud  d-flex align-items-center justify-content-center p-2" style="min-height: 100vh;">
+        <div class="col-10 p-4  rounded-3" id="content-box">
+            <h1 class="mb-0 p-0">Contact US</h1>
+            <form method="post" class=" p-4" autocomplete="on">
+                <div class="row  mb-3">
+                    <div class="col ">
+                        <label for="name" class="form-label">First Name *</label>
+                        <input type="text" class="form-control rounded-3" required id="name" autocomplete="name">
+                    </div>
+                    <div class="col ">
+                        <label for="lastName" class="form-label">Last Name *</label>
+                        <input type="text" class="form-control rounded-3" required id="lastName" autocomplete="additional-name">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col ">
+                        <label for="email" class="form-label" >Email Address *</label>
+                        <input type="email" name="email" id="email" required class="form-control rounded-3" autocomplete="email">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="row">
+                        <div class="col">
+                            <label for="query" class="form-label">Query Type *</label>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center px-4">
+                        <div class="col-5 border p-3 rounded-3">
+                            <div class="col">
+                                <input type="radio" name="query" id="general">
+                                <label for="general">General Enquiry </label>
+                            </div>
+                        </div>
+                        <div class="col-5 border p-3 rounded-3">
+                            <div class="col">
+                                <input type="radio" name="query" id="support">
+                                <label for="support">Support Request</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3 ">
+                    <label for="message" class="form-label">Message *</label>
+                    <div class="col">
+                        <textarea type="text" class="form-control rounded-3 " required row="3"></textarea>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-3">
+                    <div class="col">
+                        <input type="checkbox" name="consent" id="consent" class="form-check-input mt-0">
+                        <label for="consent" class="form-check-label mx-3">I consent to being contacted by the team *</label>
+                    </div>
+                </div>
+                <input type="submit" value="Submit" class="btn btn-success w-100">
+            </form>
         </div>
-        <div class="col input-group mb-3 flex-column">
-          <label for="lastName" class="form-label">Last Name *</label>
-          <input type="text" class="form-control rounded-2 w-100" id="lastName">
-          <span>This field is required</span>
-        </div>
-      </div>
-      <div class="input-group mb-3">
-        Email Address
-        <span>Please enter a valid email address</span>
-      </div>
-      <div class="input-group mb-3">
-        Query Type
-        General Enquiry
-        Support Request
-        <span>Please select a query type</span>
-      </div>
-      <div class="input-group mb-3">
-        Message
-        <span>This field is required</span>
-      </div>
-      <div class="input-group mb-3">
-        I consent to being contacted by the team
-        <span>To submit this form, please consent to being contacted</span>
-      </div>
-      <div class="w-100">
-        <input type="submit" value="Submit" class="btn btn-success w-100">
-      </div>
-      <div>
-        Message Sent!
-        <p>Thanks for completing the form. We'll be in touch soon!</p>
-      </div>
-    </form>
-  </main>
-  
- 
-</body>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
 </html>
