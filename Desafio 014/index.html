@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container-flud  d-flex align-items-center justify-content-center p-2" style="min-height: 100vh;">
-        <div class="col-10 p-4  rounded-3" id="content-box">
-            <h1 class="mb-0 p-0">Contact US</h1>
+    <div class="container-flud  d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+        <div class="col-10 rounded-3 my-3" id="content-box">
+            <h1 class="mb-0 mt-3 px-4">Contact US</h1>
             <form method="post" class=" p-4" autocomplete="on">
                 <div class="row  mb-3">
-                    <div class="col ">
+                    <div class="col mb-3">
                         <label for="name" class="form-label">First Name *</label>
                         <input type="text" class="form-control rounded-3" required id="name" autocomplete="name">
                     </div>
-                    <div class="col ">
+                    <div class="col">
                         <label for="lastName" class="form-label">Last Name *</label>
                         <input type="text" class="form-control rounded-3" required id="lastName" autocomplete="additional-name">
                     </div>
@@ -34,17 +34,17 @@
                             <label for="query" class="form-label">Query Type *</label>
                         </div>
                     </div>
-                    <div class="row justify-content-between align-items-center px-4">
+                    <div class="row justify-content-between align-items-center" id="radio-container">
                         <div class="col-5 border p-3 rounded-3">
-                            <div class="col">
+                            <div class=" radio-box">
                                 <input type="radio" name="query" id="general">
-                                <label for="general">General Enquiry </label>
+                                <label for="general" class="radio-label">General Enquiry </label>
                             </div>
                         </div>
                         <div class="col-5 border p-3 rounded-3">
-                            <div class="col">
+                            <div class="col radio-box">
                                 <input type="radio" name="query" id="support">
-                                <label for="support">Support Request</label>
+                                <label for="support" class="radio-label">Support Request</label>
                             </div>
                         </div>
                     </div>
@@ -56,9 +56,9 @@
                     </div>
                 </div>
                 <div class="row mt-3 mb-3">
-                    <div class="col">
+                    <div class="col" id="consent-box">
                         <input type="checkbox" name="consent" id="consent" class="form-check-input mt-0">
-                        <label for="consent" class="form-check-label mx-3">I consent to being contacted by the team *</label>
+                        <label for="consent" class="form-check-label">I consent to being contacted by the team *</label>
                     </div>
                 </div>
                 <input type="submit" value="Submit" class="btn btn-success w-100">

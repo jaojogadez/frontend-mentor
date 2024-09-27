@@ -28,8 +28,27 @@ body{
 
 label{
     font-size: 16px;
+    cursor: pointer;
+}
+#radio-container{
+    padding-left: 25px;
+    padding-right: 0  !important;
 }
 
+textarea:hover, input:focus, textarea:focus{
+    border-color: hsl(169, 82%, 27%) !important;
+    box-shadow: 0 0 5px hsl(169, 82%, 27%) !important;
+}
+
+
+
+@media screen and (max-width:578px) {
+    .radio-box{
+        display: flex;
+        gap: 10px;
+    }
+    
+}
 
 @media  screen and (max-width: 375px) {
     .row{
@@ -39,5 +58,20 @@ label{
     .col-5{
         width: 100%;
         margin-top: 10px;
+    }
+    #consent-box{
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    .form-check-label{
+        font-size: .65em;
+    }
+    input[type="checkbox"]{
+        margin-right: 10px;
+    }
+    
+    .radio-label{
+        font-size: .9em;
     }
 }
