@@ -17,6 +17,7 @@
 
     --font: "Karla", sans-serif;
 }
+
 body{
     background-color: var(--lighter);
     font: normal normal 16px var(--font);
@@ -35,12 +36,19 @@ label{
     padding-right: 0  !important;
 }
 
-textarea:hover, input:focus, textarea:focus{
-    border-color: hsl(169, 82%, 27%) !important;
-    box-shadow: 0 0 5px hsl(169, 82%, 27%) !important;
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    border-color: var(--Green)!important;
 }
 
+input[type='radio'] {
+    accent-color: var(--Green);
+}
 
+.form-check-input:checked{
+    background-color: var(--Green);
+    border-color: var(--Green);
+}
 
 @media screen and (max-width:578px) {
     .radio-box{
