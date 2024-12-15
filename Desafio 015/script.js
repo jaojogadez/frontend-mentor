@@ -29,7 +29,7 @@ cvcCard.innerText = "000";
 
 inputName.addEventListener("input", () => {
     const valueName = inputName.value
-    const regexName = /^[a-zA-ZÀ-ÿ\s]+$/ // Regex para permitir apenas letras e valida a string inteira
+    const regexName = /^[a-zA-ZÀ-ÿ\s]+$/
     const isValidName = regexName.test(valueName)
     if (isValidName === true && valueName.length >= 3){
         errorName.classList.add("d-none")
@@ -56,10 +56,10 @@ inputName.addEventListener("input", () => {
 })
 
 inputNumberCard.addEventListener("input", () => {
-    const valueNumberCard = inputNumberCard.value.replace(/\D/g, '')// Regex para remover letras
-    const regexNumberCard = /(\d{4})(?=\d)/g // Regex para que captura um grupo de 4 digitos
-    const formatNumberCard = valueNumberCard.replace(regexNumberCard, "$1 ").slice(0,19) // formata o valor do input para add espaços
-    inputNumberCard.value = formatNumberCard // Faz que o valor do input seja formatado tbm
+    const valueNumberCard = inputNumberCard.value.replace(/\D/g, '')
+    const regexNumberCard = /(\d{4})(?=\d)/g
+    const formatNumberCard = valueNumberCard.replace(regexNumberCard, "$1 ").slice(0,19)
+    inputNumberCard.value = formatNumberCard 
     if(valueNumberCard.length > 16){
         inputNumberCard.classList.remove("form-control-check")
         inputNumberCard.classList.add("form-control-error")
@@ -69,7 +69,7 @@ inputNumberCard.addEventListener("input", () => {
     }
     else if(valueNumberCard.length < 16){ 
         inputNumberCard.classList.remove("form-control-check")
-        numberCardField.classList.remove("form-message-error-limit")
+        numberCardField.classList.add("form-message-error-number")
         inputNumberCard.classList.add("form-control-error")
         numberCardField.classList.add("form-message-error-null")
         checkNumberCard.classList.add("d-none")
@@ -81,7 +81,7 @@ inputNumberCard.addEventListener("input", () => {
         numberCardField.classList.remove("form-message-error-null")
         checkNumberCard.classList.remove("d-none")
         errorNumberCard.classList.add("d-none")
-        numberCardField.classList.remove("form-message-error-limit")
+        numberCardField.classList.remove("form-message-error-number")
     }
     numberCard.innerHTML = ""
     numberCard.innerHTML += `${formatNumberCard}`
@@ -170,7 +170,7 @@ form.addEventListener("submit", (event) => {
             }
         })
         if(hasError === true){
-            alert("Por favor, preencha todos os campos corretamente")
+            alert("Please fill in all fields correctly")
         }
         else{
             alert("Formulário enviado com sucesso!")
