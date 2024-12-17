@@ -163,6 +163,15 @@ input:focus, select:focus{
     right: 23px;
 }
 /* Check Message End */
+h1{
+    letter-spacing: 3px;
+}
+#form-complete{
+    margin-top: calc(7vw) !important;
+}
+#form-complete p{
+    color: var(--Darkgrayish);
+}
 @media (min-width: 1400px){  
     #backcard-content{
         top: 6rem;
@@ -215,13 +224,16 @@ input:focus, select:focus{
     #back-card{
         transform: translate(0px, 90%);
     }
-    form{
+    form, #form-complete{
         max-width: 100%;
         translate: 10vw 0;
     }
     .alert-danger{
         top: -4rem;
         right: 5.45rem;
+    }
+    #form-complete{
+        margin-top: 0 !important;
     }
 }
 @media (max-width: 768px){
