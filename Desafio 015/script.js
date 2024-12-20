@@ -176,7 +176,6 @@ form.addEventListener("submit", (event) => {
         else{
             form.classList.add("d-none")
             formComplete.classList.remove("d-none")
-            
         }
     }
 })
