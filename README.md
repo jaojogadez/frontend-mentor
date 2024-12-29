@@ -3,23 +3,38 @@
 
 # Desafio 001
 ![Design preview for the home web site](./design/1.jpg)
+<ul>
+ <li>Feito com HTML5 e CSS3 puro.</li>
+</ul>
 <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20001/" target="_blank">Acesse Aqui</a>
 
 # Desafio 002
 ![Design preview for the home web site](./design/2.jpg)
 <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20002/" target="_blank">Acesse Aqui</a>
+<ul>
+ <li>Feito com HTML5 e CSS3 puro.</li>
+</ul>
 
 # Desafio 003
 ![Design preview for the home web site](./design/3.jpg)
 <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20003/" target="_blank">Acesse Aqui</a>
+<ul>
+ <li>Feito com HTML5 e CSS3 puro.</li>
+</ul>
 
 # Desafio 004
 ![Design preview for the home web site](./design/4.jpg)
 <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20004/" target="_blank">Acesse Aqui</a>
+<ul>
+ <li>Feito com HTML5 e CSS3 puro.</li>
+</ul>
 
 # Desafio 005
 ![Design preview for the home web site](./design/5.jpg)
 <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20005/" target="_blank">Acesse Aqui</a>
+<ul>
+ <li>Feito com HTML5 e CSS3 puro.</li>
+</ul>
  
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20006/" target="_blank">Desafio 6</a>
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20007/" target="_blank">Desafio 7</a>
