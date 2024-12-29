@@ -1,10 +1,15 @@
 # Desafios que eu resolvi do Frontend Mentor! 
 <a href="https://www.frontendmentor.io/">Frontend Mentor </a> é uma plataforma/site que oferece desafios para quem quer praticar seus conhecimentos em Desenvolvimento Web! <br>
 
-## Desafio 001
-![Design preview for the home web site](./design/echo-lights-home.png)
- <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20001/" target="_blank">Desafio 1</a>
- <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20002/" target="_blank">Desafio 2</a>
+# Desafio 001
+![Design preview for the home web site](./design/desktop-preview.jpg)
+<a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20001/" target="_blank">Acesse Aqui</a>
+
+# Desafio 002
+![Design preview for the home web site](./design/desktop-design.jpg)
+<a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20002/" target="_blank">Acesse Aqui</a>
+
+ 
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20003/" target="_blank">Desafio 3</a>
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20004/" target="_blank">Desafio 4</a>
  <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20005/" target="_blank">Desafio 5</a>
