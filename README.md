@@ -90,7 +90,8 @@
 # Desafio 013
 ![Design preview for the home web site](./design/13.jpg)
 <ul>
- <li>Feito com Bootstrap.</li>
+ <li>Feito com Bootstrap;</li>
+ <li>Desafio Incompleto.</li>
 </ul>
 <a href="https://jaojogadez.github.io/frontend-mentor/Desafio%20013/" target="_blank">Acesse Aqui</a>
 
